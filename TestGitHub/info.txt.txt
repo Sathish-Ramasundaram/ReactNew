@@ -1,1 +1,24 @@
-This is sample
+Add Local Folder to Existing GitHub Repo
+
+1. Clone the GitHub Repo to Your System
+bash
+git clone https://github.com/Sathish-Ramasundaram/ReactNew.git
+
+
+Copy Your Local Folder (e.g., TestGithub) Into the Cloned Repo
+Place it inside the ReactNew folder:
+Code
+ReactNew/TestGithub/
+
+3. Open the ReactNew Folder in VS Code
+
+4. Add a File Inside TestGithub
+Even a simple info.txt or README.md works to make it trackable.
+
+5. Stage, Commit, and Push
+bash
+git add .
+git commit -m "Added TestGithub folder"
+git branch -M main
+git push -u origin main
+✅ Your folder is now part of the GitHub repo and visible online.
